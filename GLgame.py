@@ -141,7 +141,7 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
 
 # Load image
-image = Image.open("./thicc.png")
+image = Image.open("./girl-2.png")
 image = image.transpose(Image.FLIP_TOP_BOTTOM)
 img_data = image.convert("RGBA").tobytes()
 
